@@ -7,7 +7,7 @@ Description: This patch fixes a bug causing gtk applications to freeze
 Author: Ruben Undheim <ruben.undheim@gmail.com>
 Bug-Debian: https://bugs.debian.org/787419
 Origin: upstream
-Bug: https://bugzilla.gnome.orog/show_bug.cgi?id=742636
+Bug: https://bugzilla.gnome.org/show_bug.cgi?id=742636
 Last-Update: 2015-08-17
 
 Index: gtk+3.0-3.14.5/gdk/gdkinternals.h
