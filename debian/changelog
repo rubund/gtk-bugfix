@@ -1,3 +1,13 @@
+gtk+3.0 (3.14.5-1+deb8u1) jessie; urgency=medium
+
+  [ Ruben Undheim ]
+  * Added patches for three serious bugs:
+    - debian/patches/074_fix_freeze_while_resume_events.patch (Closes: #787419)
+    - debian/patches/075_gtk_print_bugfix.patch (Closes: #771205)
+    - debian/patches/076_fontchoose_crash_bugfix.patch (Closes: #748469)
+
+ -- maintainer <maintainer@email.com>  Mon, 17 Aug 2015 09:53:13 +0200
+
 gtk+3.0 (3.14.5-1) unstable; urgency=medium
 
   * New upstream bugfix release.
