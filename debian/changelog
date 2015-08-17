@@ -5,8 +5,7 @@ gtk+3.0 (3.14.5-1+deb8u1) jessie; urgency=medium
     - debian/patches/074_fix_freeze_while_resume_events.patch (Closes: #787419)
     - debian/patches/075_fontchoose_crash_bugfix.patch (Closes: #748469)
     - debian/patches/076_treeview_dont_create_overly_large.patch (Closes: #788002)
-  * Added patches for two annoying bugs:
-    - debian/patches/080_gtk_print_bugfix.patch (Closes: #771205)
+  * Added patch for one annoying bug:
     - debian/patches/081_fix_huge_icons.patch (Closes: #773135)
 
  -- maintainer <maintainer@email.com>  Mon, 17 Aug 2015 09:53:13 +0200
