@@ -1,4 +1,7 @@
-
+Description: This patch fixes a bug causing gtk applications to freeze
+ every now and then.
+Author: Ruben Undheim <ruben.undheim@gmail.com>
+Forwarded: Came from upstream - no need
 Index: gtk+3.0-3.14.5/gdk/gdkinternals.h
 ===================================================================
 --- gtk+3.0-3.14.5.orig/gdk/gdkinternals.h

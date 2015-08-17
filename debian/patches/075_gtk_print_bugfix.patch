@@ -1,3 +1,5 @@
+Description: Backporting a fix for a bug which cause trouble with scaling and
+ landscape printing in GTK applications.
 Index: gtk+3.0-3.14.5/gtk/gtkprintoperation.c
 ===================================================================
 --- gtk+3.0-3.14.5.orig/gtk/gtkprintoperation.c	2014-11-06 19:58:35.000000000 +0100

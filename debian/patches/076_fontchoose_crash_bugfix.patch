@@ -1,3 +1,5 @@
+Description: Backporting a fix for a bug which makes the font chooser
+ crash GTK applications in certain circumstances.
 Index: gtk+3.0-3.14.5/gtk/gtkfontchooserwidget.c
 ===================================================================
 --- gtk+3.0-3.14.5.orig/gtk/gtkfontchooserwidget.c	2014-11-09 18:57:30.000000000 +0100
