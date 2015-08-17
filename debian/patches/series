@@ -14,4 +14,5 @@
 reftest-known-fail.patch
 074_fix_freeze_while_resume_events.patch
 075_fontchoose_crash_bugfix.patch
-076_gtk_print_bugfix.patch
+076_treeview_dont_create_overly_large.patch
+080_gtk_print_bugfix.patch
