@@ -1,5 +1,14 @@
 Description: Backporting a fix for a bug which cause trouble with scaling and
  landscape printing in GTK applications.
+ .
+ It deserves to be applied in Jessie because it makes it impossible to print
+ PDF documents in landscape mode from evince.
+Author: Ruben Undheim <ruben.undheim@gmail.com>
+Bug-Debian: https://bugs.debian.org/771205
+Origin: upstream
+Bug: https://bugzilla.gnome.org/show_bug.cgi?id=740742
+Last-Update: 2015-08-17
+
 Index: gtk+3.0-3.14.5/gtk/gtkprintoperation.c
 ===================================================================
 --- gtk+3.0-3.14.5.orig/gtk/gtkprintoperation.c	2014-11-06 19:58:35.000000000 +0100

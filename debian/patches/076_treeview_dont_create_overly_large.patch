@@ -1,5 +1,14 @@
-Description: Backport of fix for a bug that causes crashes with things
- like easytag.
+Description: Backport of fix for a bug that causes crashes with programs
+ such as easytag.
+ .
+ It deserves to be applied in Jessie because it makes several programs
+ suddenly crash apparently out of nowhere.
+Author: Ruben Undheim <ruben.undheim@gmail.com>
+Bug-Debian: https://bugs.debian.org/788002
+Origin: upstream
+Bug: https://bugzilla.redhat.com/show_bug.cgi?id=1163579
+Last-Update: 2015-08-17
+
 Index: gtk+3.0/gtk/gtktreeview.c
 ===================================================================
 --- gtk+3.0.orig/gtk/gtktreeview.c	2015-08-17 09:57:38.613296608 +0200

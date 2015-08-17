@@ -1,5 +1,14 @@
 Description: Backporting a fix for a bug which makes the font chooser
  crash GTK applications in certain circumstances.
+ .
+ It deserves to be applied in Jessie because all GTK programs using a font
+ chooser may suddenly crash completely apparently out of nowhere.
+Author: Ruben Undheim <ruben.undheim@gmail.com>
+Bug-Debian: https://bugs.debian.org/748469
+Origin: upstream
+Bug: https://bugzilla.gnome.org/show_bug.cgi?id=750211
+Last-Update: 2015-08-17
+
 Index: gtk+3.0-3.14.5/gtk/gtkfontchooserwidget.c
 ===================================================================
 --- gtk+3.0-3.14.5.orig/gtk/gtkfontchooserwidget.c	2014-11-09 18:57:30.000000000 +0100
