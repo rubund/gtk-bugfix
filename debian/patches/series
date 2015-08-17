@@ -13,5 +13,5 @@
 071_fix-installation-of-HTML-images.patch
 reftest-known-fail.patch
 074_fix_freeze_while_resume_events.patch
-075_gtk_print_bugfix.patch
-076_fontchoose_crash_bugfix.patch
+075_fontchoose_crash_bugfix.patch
+076_gtk_print_bugfix.patch
