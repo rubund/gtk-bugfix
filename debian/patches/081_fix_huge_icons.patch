@@ -1,8 +1,8 @@
 Description: Backporting a fix for a bug which cause trouble with icon sizes
  in GTK applications
  .
- It deserves to be applied in Jessie mainly because it is quite annoying and
- the fix is very small and hence little chance of any regression.
+ It deserves to be applied in Jessie mainly because the bug is quite annoying
+ and the fix is very small and hence little chance of any regression.
 Author: Ruben Undheim <ruben.undheim@gmail.com>
 Bug-Debian: https://bugs.debian.org/773135
 Origin: upstream

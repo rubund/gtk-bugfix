@@ -1,7 +1,7 @@
 Description: This patch fixes a bug causing gtk applications to freeze
  every now and then.
  .
- It deserves to be applied in Jessie because it will and have caused users
+ It deserves to be applied in Jessie because the bug will and has caused users
  to lose their work. One common consequence of the bug is that all open
  gnome-terminal instances may suddenly crash at the same time.
 Author: Ruben Undheim <ruben.undheim@gmail.com>
